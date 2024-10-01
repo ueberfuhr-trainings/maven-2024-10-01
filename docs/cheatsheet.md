@@ -17,3 +17,29 @@ mvn archetype:generate \
       -DarchetypeArtifactId=maven-archetype-quickstart \
       -DarchetypeVersion=1.5
 ```
+
+## Dependencies
+
+Dependencies anzeigen:
+
+```bash
+mvn dependency:tree
+```
+
+Dependencies auf aktuelle Versionen setzen:
+
+```bash
+mvn versions:use-latest-releases
+```
+
+Ungenutzte Dependencies anzeigen:
+
+```bash
+mvn dependency:analyze
+```
+
+Konflikte anzeigen:
+
+```bash
+mvn dependency:tree -Dverbose
+```
