@@ -26,6 +26,7 @@
     <maven-site-plugin.version>3.12.1</maven-site-plugin.version>
     <maven-project-info-reports-plugin.version>3.6.1</maven-project-info-reports-plugin.version>
     <maven-source-plugin.version>3.3.1</maven-source-plugin.version>
+    <main-class>de.samples.schulung.App</main-class>
   </properties>
 
   <dependencyManagement>
@@ -89,6 +90,13 @@
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
           <version>${maven-jar-plugin.version}</version>
+          <configuration>
+            <archive>
+              <manifest>
+                <mainClass>${main-class}</mainClass>
+              </manifest>
+            </archive>
+          </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
