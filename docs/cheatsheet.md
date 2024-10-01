@@ -30,6 +30,8 @@ Dependencies auf aktuelle Versionen setzen:
 
 ```bash
 mvn versions:use-latest-releases
+# update versions stored in properties
+mvn versions:update-properties
 ```
 
 Ungenutzte Dependencies anzeigen:
