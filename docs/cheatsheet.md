@@ -45,3 +45,11 @@ Konflikte anzeigen:
 ```bash
 mvn dependency:tree -Dverbose
 ```
+
+## Effective POM
+
+Effective POM anzeigen:
+
+```bash
+mvn help:effective-pom
+```
