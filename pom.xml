@@ -14,6 +14,7 @@
     <module>simple-java-project</module>
     <module>second-project</module>
     <module>third-project</module>
+    <module>hello-world-plugin</module>
   </modules>
 
 </project>
