@@ -10,7 +10,7 @@ mvn hello-world:help
 # count all dependencies
 mvn hello-world:dependency-counter
 # count only runtime dependencies
-mvn hello-world:dependency-counter -Dscope=runtime
+mvn hello-world:dependency-counter -Dhelloworld.scope=runtime
 ```
 
 Or you can bind it to the lifecycle:
