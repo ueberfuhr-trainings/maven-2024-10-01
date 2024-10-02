@@ -13,6 +13,7 @@
   <modules>
     <module>simple-java-project</module>
     <module>second-project</module>
+    <module>third-project</module>
   </modules>
 
 </project>
