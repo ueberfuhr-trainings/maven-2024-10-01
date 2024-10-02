@@ -18,7 +18,7 @@
 
   <dependencies>
     <dependency>
-      <groupId>de.samples.schulung</groupId>
+      <groupId>${project.groupId}</groupId>
       <artifactId>third-project</artifactId>
     </dependency>
     <dependency>
