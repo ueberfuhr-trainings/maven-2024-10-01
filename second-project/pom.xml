@@ -4,10 +4,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>de.samples.schulung</groupId>
-  <artifactId>simple-java-project</artifactId>
+  <artifactId>second-project</artifactId>
   <version>1.0.0-SNAPSHOT</version>
 
-  <name>Simple Java Project</name>
+  <name>Second Project</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -50,11 +50,6 @@
   </dependencyManagement>
 
   <dependencies>
-    <dependency>
-      <groupId>de.samples.schulung</groupId>
-      <artifactId>third-project</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
-    </dependency>
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-core</artifactId>
@@ -199,11 +194,7 @@
                   <version>17</version>
                 </requireJavaVersion>
                 <banDuplicatePomDependencyVersions/>
-                <banDynamicVersions>
-                  <ignores>
-                    <ignore>de.samples.schulung</ignore>
-                  </ignores>
-                </banDynamicVersions>
+                <banDynamicVersions/>
                 <dependencyConvergence>
                   <excludedScopes>system,import</excludedScopes>
                 </dependencyConvergence>
